@@ -12,10 +12,10 @@ pipeline {
       username = "admin"
       
       # AWS Secrets Manager Secret Name -- Subject to Change 
-      mysecret = "rds!db-350ee583-4aff-4b83-b828-55601f8a50f3"
+      mysecret = "rds!db-c1e93343-dff4-4333-ba17-944c72ddded2"
 
       # AWS Region Code -- Subject to Change
-      aws_region = 'ap-southeast-1'
+      aws_region = 'us-east-1'
       
       fpath="${WORKSPACE}"
       dsn = "asterisk-ipcc-db"
